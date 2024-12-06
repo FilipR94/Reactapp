@@ -1,0 +1,81 @@
+/* Light Mode */
+:root[data-theme="light"] { 
+    --clr-gray-100: #F3F6FF;
+    --clr-gray-200: #EFF2FC;
+    --clr-gray-300: #E2E5F1;
+    --clr-gray-400: #D4D7E5;
+    --clr-gray-500: #B4B7C9;
+    --clr-gray-600: #9397AD;
+    --clr-gray-700: #565973;
+    --clr-gray-800: #33354D;
+    --clr-gray-900: #0B0F19;
+
+    --clr-primary: #6366F1;
+    --clr-primary-h: 230;
+    --clr-primary-s: 90%;
+    --clr-primary-l: 70%;
+    --clr-white: #FFFFFF;
+    --clr-white-1: #FFFFFF;
+    --clr-star: #ffd900e0; 
+
+    --clr-bg-image: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%),;
+    --clr-bg: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%),#ffffff;
+ 
+
+    --clr-bg-100: var(--clr-gray-100);
+    --clr-text-body: var(--clr-gray-700);
+    --clr-text-heading: var(--clr-gray-900);
+    --clr-text-navigation: var(--clr-gray-800);
+    --clr-market-btn: var(--clr-gray-900);
+    --clr-white-to-gray: #ffffff91;
+    --clr-light-blue: #3498db;
+
+    --clr-logo-bg: #F3F6FF;
+
+    --container-padding: 1rem;
+    --transition-time: all 0.2s;
+    --br-m: .375em;
+    --br-lg: .5em;
+    --section-spacing: 3rem;
+}
+/* Dark Mode */
+:root[data-theme="dark"] {    
+    --clr-gray-900: #F3F6FF;
+    --clr-gray-800: #EFF2FC;
+    --clr-gray-700: #E2E5F1;
+    --clr-gray-600: #D4D7E5;
+    --clr-gray-500: #B4B7C9;
+    --clr-gray-400: #9397ad20;
+    --clr-gray-300: #565973;
+    --clr-gray-200: #33354D;
+    --clr-gray-100: #0B0F19;
+
+    --clr-primary: #8185E9;
+    --clr-primary-h: 230;
+    --clr-primary-s: 90%;
+    --clr-primary-l: 70%;
+    --clr-white: #FFFFFF;
+    --clr-white-1: #ffffff0f;
+    --clr-star: #ffd900e0;   
+
+    --clr-bg-image: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%),;
+    --clr-bg: #0b0f19f4;
+
+    --clr-bg-100: var(--clr-gray-100);
+    --clr-text-body: var(--clr-gray-700);
+    --clr-text-heading: var(--clr-gray-900);
+    --clr-text-navigation: var(--clr-gray-700);
+    --clr-market-btn: var(--clr-gray-100);
+    --clr-white-to-gray: #ffffff91;
+    --clr-light-blue: #3498db;
+
+    --clr-logo-bg: #f3f6ff0f;
+
+    --container-padding: 1rem;
+    --transition-time: all 0.2s;
+    --br-m: .375em;
+    --br-lg: .5em;
+    --section-spacing: 3rem;
+}
+
+
